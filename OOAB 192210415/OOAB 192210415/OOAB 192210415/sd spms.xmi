@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2023-05-08T13:00:28" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.10</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="datatype" name="datatype"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="7sz7SXTOmzOu" name="int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="URx0RGxz6qgW" name="char"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="HC0A2RP0Wlhd" name="bool"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="WPOu6MEa6jqo" name="float"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="O7yhHjWvYtol" name="double"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="WHb5MFvE0vOr" name="short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="8977gayXmwt5" name="long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="FQR1HcrxmffN" name="unsigned int"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufJ2H1eIlJP4" name="unsigned short"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ZgyPCPMrttjh" name="unsigned long"/>
+        <UML:DataType stereotype="datatype" visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ywAGrU64AWwu" name="string"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="7sO8dWENRaB2" name="employee"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="JPzs70LRDyNm" name="HR"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="5ikPXyZKjvYz" name="central system"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="0" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="0" canvaswidth="0" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="LjL2AjozjioW" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="sd" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="737" canvaswidth="1594" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" autoincrementsequence="0" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="k9Vthwpv6eca" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-324" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="sY2R00I7Jjts" width="85" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="7sO8dWENRaB2" height="27" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="-113" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="MB25ESDRwiiq" width="50" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="JPzs70LRDyNm" height="27" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="53" decon="0" showstereotype="1" y="80" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="pHqPud21ilQg" width="118" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="5ikPXyZKjvYz" height="27" drawasactor="0"/>
+         <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-56" showstereotype="1" y="240" text="salary execced 10000" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="TTLecGULxuEd" pretext="" role="700" width="150" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="JdkZYheHIdCi" height="21"/>
+         <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-29" showstereotype="1" y="324" text="tax calculated" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="OFfGDd53Zphn" pretext="" role="700" width="97" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="Ldnakj9nWAdG" height="21"/>
+         <floatingtext linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="0" x="-27" showstereotype="1" y="468" text="display loss of pay" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="1nmu05NAKhvu" pretext="" role="700" width="127" isinstance="0" posttext="" usefillcolor="1" fillcolor="#ffff00" xmi.id="V7X6yYBs8jRc" height="21"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="MB25ESDRwiiq" textid="Z2Xhg82zbi7B" operation="enter the option" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-281" showstereotype="1" y="151" widgetaid="sY2R00I7Jjts" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="EUTg82DINwdy" width="201" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="PRJh8VraW5Gw" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-173" showstereotype="1" y="135" text="enter the option" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="Dqy5pH3tj4xj" pretext="" role="704" width="80" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="Z2Xhg82zbi7B" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="MB25ESDRwiiq" textid="HzRBlpjko5Ll" operation="enter the salary" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-280" showstereotype="1" y="183" widgetaid="sY2R00I7Jjts" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="4ZXM3flH2aSz" width="191" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="o1ki0T2G8Ow0" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-170" showstereotype="1" y="167" text="enter the salary" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="4HVulmVDEleA" pretext="" role="704" width="77" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="HzRBlpjko5Ll" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="pHqPud21ilQg" textid="ZIdOFl7mHvYd" operation="whether execceds 10000" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-88" showstereotype="1" y="219" widgetaid="MB25ESDRwiiq" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="IGesCuox3kq5" width="208" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="6QjOsv3irnaF" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-9" showstereotype="1" y="203" text="whether execceds 10000" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="1jHOvGyLKFt1" pretext="" role="704" width="116" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="ZIdOFl7mHvYd" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="pHqPud21ilQg" textid="th1QHkPjdsjv" operation="calculate tax amount" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-88" showstereotype="1" y="304" widgetaid="MB25ESDRwiiq" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="vTyZwwoS9Nff" width="208" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="dvHzj81lf5aS" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="288" text="calculate tax amount" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="sayWusMS7sbb" pretext="" role="704" width="99" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="th1QHkPjdsjv" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="sY2R00I7Jjts" textid="Owns3enrcmJ6" operation="display tax amount" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-289" showstereotype="1" y="356" widgetaid="MB25ESDRwiiq" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="0bR9xyxb6NCi" width="201" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="7Czvf6d59qxt" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-185" showstereotype="1" y="340" text="display tax amount" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="FavBVozIVod7" pretext="" role="704" width="92" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="Owns3enrcmJ6" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="MB25ESDRwiiq" textid="x6lzRrOo8Jx7" operation="enter the loss of pay" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-280" showstereotype="1" y="388" widgetaid="sY2R00I7Jjts" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="50Os88VATZdl" width="191" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="QT3N2b14JApl" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-192" showstereotype="1" y="372" text="enter the loss of pay" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="fMEYtWECFxN8" pretext="" role="704" width="99" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="x6lzRrOo8Jx7" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="MB25ESDRwiiq" textid="IjV5Zij1CM3H" operation="enter no of leave taken" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-280" showstereotype="1" y="427" widgetaid="sY2R00I7Jjts" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="ZYgI0ceTYUTQ" width="191" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="bst768EgMZzD" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-205" showstereotype="1" y="411" text="enter no of leave taken" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="OXUHWLK20RWl" pretext="" role="704" width="112" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="IjV5Zij1CM3H" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="pHqPud21ilQg" textid="fpfJjDF7FFRv" operation="calculate loss of pay" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-88" showstereotype="1" y="445" widgetaid="MB25ESDRwiiq" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="txu5Vg4vrYJK" width="208" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="FHvbxZ4UQdzB" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="0" showstereotype="1" y="429" text="calculate loss of pay" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="xpppzDgKarML" pretext="" role="704" width="97" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="fpfJjDF7FFRv" height="16"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="sY2R00I7Jjts" textid="HnysqPJG7wOG" operation="print bill" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" x="-280" showstereotype="1" y="507" widgetaid="MB25ESDRwiiq" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="He1AbWlJYit3" width="191" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="eTn3x0cELaFl" height="8" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-137" showstereotype="1" y="491" text="print bill" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="qxJsL8CqkLxt" pretext="" role="704" width="44" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="HnysqPJG7wOG" height="16"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use Case View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity Relationship Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="k9Vthwpv6eca" uniqueid="HnysqPJG7wOG" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component View"/>
+    <listitem open="1" type="827" id="Deployment View"/>
+    <listitem open="1" type="836" id="Entity Relationship Model"/>
+    <listitem open="1" type="801" id="Logical View">
+     <listitem open="1" type="813" id="5ikPXyZKjvYz"/>
+     <listitem open="0" type="807" id="LjL2AjozjioW" label="class diagram"/>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="HC0A2RP0Wlhd"/>
+      <listitem open="1" type="829" id="URx0RGxz6qgW"/>
+      <listitem open="1" type="829" id="O7yhHjWvYtol"/>
+      <listitem open="1" type="829" id="WPOu6MEa6jqo"/>
+      <listitem open="1" type="829" id="7sz7SXTOmzOu"/>
+      <listitem open="1" type="829" id="8977gayXmwt5"/>
+      <listitem open="1" type="829" id="WHb5MFvE0vOr"/>
+      <listitem open="1" type="829" id="ywAGrU64AWwu"/>
+      <listitem open="1" type="829" id="FQR1HcrxmffN"/>
+      <listitem open="1" type="829" id="ZgyPCPMrttjh"/>
+      <listitem open="1" type="829" id="ufJ2H1eIlJP4"/>
+     </listitem>
+     <listitem open="1" type="813" id="7sO8dWENRaB2"/>
+     <listitem open="1" type="813" id="JPzs70LRDyNm"/>
+     <listitem open="0" type="810" id="k9Vthwpv6eca" label="sd"/>
+    </listitem>
+    <listitem open="1" type="802" id="Use Case View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
